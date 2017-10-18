@@ -4,10 +4,10 @@
         <div class="container">
             <!-- left nav top -->
             <ul class="nav navbar-nav pull-left">
-                <li><a><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-thumbs-up text-white"></span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-globe text-white"></span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-pushpin text-white"></span></a></li>
+                <li><a><span class="fa fa-envelope-o" aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-user-o"></span></a></li>
+                <li><a href="#"><span class="fa fa-user-o"></span></a></li>
+                <li><a href="#"><span class="fa fa-user-o"></span></a></li>
                 <li><a href="#"><span class="text-white">QUESTIONS? CALL: <b>+963000000000</b></span></a></li>
             </ul>
             <!-- right nav top -->
@@ -35,8 +35,8 @@
                 </ul>
                 <!-- dropdown only moblie -->
                 <div class="dropdown visible-xs pull-right">
-                    <button class="btn btn-default dropdown-toggle " type="button" id="dropdownmenu" data-toggle="dropdown">
-                        <span class="glyphicon glyphicon-align-justify"></span>
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+                        <span class="fa fa-bars"></span>
                     </button>
                     <ul class="dropdown-menu">
                         <li><a href="#">Projects</a></li>
