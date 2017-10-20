@@ -1,29 +1,32 @@
 <html>
     <head>
         @include('fijas.head')
-        <script>
-            // toggle class scroll
-            $(window).scroll(function() {
-                if($(this).scrollTop() > 50)
-                {
-                    $('.navbar-trans').addClass('afterscroll');
-                } else
-                {
-                    $('.navbar-trans').removeClass('afterscroll');
-                }
 
-            });
-        </script>
     </head>
     <body>
-        <header>
-                @include('fijas.header')
+        <!--Pantalla principal-->
+        <header class="masthead">
+            @yield('principal')
         </header>
+        <!--Navegador-->
+        <div id="nav">
+            @include('fijas.nav')
+        </div>
+        <!--Contenido-->
         <section>
                 @yield('section')
         </section>
+        <!--Footer-->
         <footer class="footer-distributed">
             @include('fijas.footer')
         </footer>
+
+        <script>
+            $('#nav').affix({
+                offset: {
+                    top: $('header').height()
+                }
+            });
+        </script>
     </body>
 </html>

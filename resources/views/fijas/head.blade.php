@@ -2,7 +2,7 @@
 <meta charset="UTF-8"/>
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="{{ asset('bootstrap/css/paper.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('bootstrap/css/bootstrap.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
 
 <!-- Font Awesome -->
