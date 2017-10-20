@@ -5,7 +5,7 @@
     </head>
     <body>
         <!--Pantalla principal-->
-        <header class="masthead">
+        <header>
             @yield('principal')
         </header>
         <!--Navegador-->

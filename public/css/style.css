@@ -1,10 +1,22 @@
+header{
+    background-color: #baefed;
+    background-image: url("https://static.wixstatic.com/media/a43f23_85a5cd3c8a1f45efac9d0423535b8646~mv2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /*background-size: cover;*/
+
+}
 /* ------------------------------------------------- paralax ------------------------------------*/
 section{
     margin-top: -22px;
 }
 section .parallax {
     /* The image used */
-    background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/J70T3LHQ2O.jpg");
+    /*background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/J70T3LHQ2O.jpg");*/
+    background-image: url("http://abcblogs.abc.es/apuntes-sobre-ruedas/wp-content/uploads/sites/145/2015/12/1-carretera.jpeg");
+
 
     /* Set a specific height */
     height: 500px;
@@ -196,8 +208,7 @@ section .parallax {
 }
 
 header {
-    height:400px;
-    background-color:#eee;
+    height: 90vh;
 }
 
 #nav.affix {
@@ -205,4 +216,10 @@ header {
     top: 0;
     width: 100%;
     z-index:10;
+}
+.navbar {
+    height: 10vh;
+}
+.navbar-inverse>.container {
+    padding-top: 8px;
 }
